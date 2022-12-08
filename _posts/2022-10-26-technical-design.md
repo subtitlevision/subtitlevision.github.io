@@ -2,7 +2,6 @@
 layout: post
 title: Technical Design Presentation
 ---
-
-[Link](https://subtitlevision.github.io/presentations/Capstone_Technical_Design.pdf)
+<object data="https://subtitlevision.github.io/presentations/Capstone_Technical_Design.pdf" width="100%" height="100%" type="application/pdf"></object>
 
 
