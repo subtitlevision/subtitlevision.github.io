@@ -5,5 +5,7 @@ permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 ---
 
-Subtitle Vision wants to be your real time movie companion
+<object data="https://subtitlevision.github.io/presentations/Design_Doc_Fall_Draft.pdf" width="100%" height="500" type="application/pdf">
+PDF cannot be displayed. Please find <a href="https://subtitlevision.github.io/presentations/Design_Doc_Fall_Draft.pd" target="_blank">here</a>.
+</object>
  
