@@ -5,7 +5,9 @@ permalink: /about/
 feature-img: "assets/img/pexels/travel.jpeg"
 ---
 
-<object data="https://subtitlevision.github.io/presentations/Design_Doc_Fall_Draft.pdf" width="100%" height="1000" type="application/pdf">
-PDF cannot be displayed. Please find <a href="https://subtitlevision.github.io/presentations/Design_Doc_Fall_Draft.pd" target="_blank">here</a>.
-</object>
- 
+We want to be your real-time guide for any movie or TV show. Some people find
+subtitles on their content distracting while others can’t comprehend a piece of content without it.
+In group settings, if there is a mix of these kinds of people, some will either be distracted by the
+subtitles while others may not be able to understand anything that is being said. Then there are
+some people who are always on their phones trying to figure out who that actor is or what music
+is playing in the background of the scene.
