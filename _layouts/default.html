@@ -1,16 +1,15 @@
 <!DOCTYPE html>
-<!--
-    Type on Strap jekyll theme v2.4.4
-    Theme free for personal and commercial use under the MIT license
-    https://github.com/sylhare/Type-on-Strap/blob/master/LICENSE
--->
 <html lang="en">
-  {% include default/head.liquid %}
-  <body>
-    {% include default/navbar.liquid %}
-    <div class="content">
-      {{ content }}
-    </div>
-    {% include default/footer.liquid %}
-  </body>
+
+{% include head.html %}
+
+<body id="page-top">
+  {% include nav-blog.html %}
+
+  {{ content }}
+
+  {% include contact.html %}
+  {% include scripts.html %}
+</body>
+
 </html>
