@@ -1,8 +1,8 @@
 # Site settings
 title: SubtitleVision
 email:
-description: A jekyll template for landing pages, portfolio and blogging
-favicon: img/favicon.ico   
+description: Real-Time movie and TV show guide
+favicon: /img/favicon.ico   
 
 baseurl: 
 url: "https://subtitlevision.github.io/"
