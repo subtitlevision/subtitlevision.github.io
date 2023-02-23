@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Technical Design Document
-header-img: img/technica-doc.jpg
+header-img: img/technical-doc.jpg
 ---
 
 <object data="https://subtitlevision.github.io/presentations/Design_Doc_Fall_Draft.pdf" width="100%" height="500" type="application/pdf">
