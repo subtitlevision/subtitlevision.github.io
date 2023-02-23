@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Alpha Demo Presentation
+header-img: img/alpha.jpg
 ---
 
 <video width="100%" preload="auto" muted controls>
