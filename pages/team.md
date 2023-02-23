@@ -1,7 +1,6 @@
 --- 
-layout: default
+layout: test
 title : The Team
-permalink: /team/
 ---
 
 TODO
