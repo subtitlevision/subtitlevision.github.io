@@ -2,18 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>SubtitleVision</title>
-    <meta name="description" content="A real-time movie and TV show companion for iOS." />
+    <title>Comet for reddit</title>
+    <meta name="description" content="A fast and intuitive reddit client for iOS" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <meta property="og:type" content="website">
-    <meta property="og:site_name" content="SubtitleVision">
-    <meta property="og:title" content="SubtitleVision" />
-    <meta property="og:description" content="A real-time movie and TV show companion for iOS." />
+    <meta property="og:site_name" content="Comet for reddit">
+    <meta property="og:title" content="Comet for reddit" />
+    <meta property="og:description" content="A fast and intuitive reddit client for iOS" />
     
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" value="SubtitleVision" />
-    <meta name="twitter:description" value="A real-time movie and TV show companion for iOS." />
+    <meta name="twitter:title" value="Comet for reddit" />
+    <meta name="twitter:description" value="A fast and intuitive reddit client for iOS" />
 
     <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
@@ -28,7 +28,6 @@
             max-width: 100%;
             margin: auto;
             font-size: 1.1em;
-            line-height: 1.0em;
             color: #444;
             background-color: #000000;
             display:block;
@@ -69,6 +68,22 @@
             display: inline-block;
             vertical-align:middle;
             align-self: center;
+        }
+
+        p {
+            color: #FFF;
+            text-align: left;
+            text-indent: 32px;
+        }
+
+        a {
+            font-size: 1.1em;
+            color: #5AC8FA;
+        }
+
+        li {
+            color: #FFF;
+            text-align: left;
         }
 
         .text {
@@ -128,7 +143,7 @@
         }
 
         .tinted {
-            color: #F89717;
+            color: #ec583a;
         }
 
         h4 {
@@ -152,12 +167,11 @@
         }
 
         .download-button {
-            
+
         }
 
         a:link, a:visited {
-            font-weight: 500;
-            font-size: 0.5em;
+
             text-decoration: none;
             border-radius: 8px;
         }
@@ -181,7 +195,7 @@
         }
 
         .highlight {
-            max-width: 60%;
+            max-width: 50%;
             margin-bottom: 32px;
         }
 
@@ -238,6 +252,8 @@
         @media only screen and (max-width: 768px) {
             .highlight {
                 max-width: 100%;
+                padding-left: 32px;
+                padding-right: 32px;
             }
             .highlight-content {
                 width: 100%;
@@ -391,138 +407,50 @@
 </head>
 <body>
     <center>
-        <div class="headerContainer">
-            <div id='parent_div_1'>
-                <img src="./AppIcon.png" width="100" height="100" />
-            </div>
+        <a style="font-size: 1.0em;" href="https://CometReddit.app">
+            <div class="headerContainer">
+                <div id='parent_div_1'>
+                    <img src="./Comet.png" width="100" height="100" />
+                </div>
 
-            <div id='parent_div_2'>
-                <h1>SubtitleVision</h1><h4>Your <font class="tinted">Real-Time</font> Movie Companion</h4>
+                <div id='parent_div_2'>
+                    <h1>Comet</h1><h4>for reddit</h4>
+                </div>
             </div>
+        </a>
+        <div class="highlight">
+            <h3>Privacy Policy</h3>
+            <p>Respecting your privacy is a very important part of <i>Comet for reddit</i>’s core philosophies. Comet collects no data. Comet does utilize the Apple App Store provided (opt-in) anonymous crash reports.</p>
+
+            <p>In the context of this privacy policy, ‘Comet for reddit’ refers to not only the iOS app but also the actions of the developer regarding <i>Comet for reddit</i>.</p>
+
+            <p><i>Comet for reddit</i> does not share any personally identifying information publicly or with third-parties. <i>Comet for reddit</i> also does not collect any personally identifying information.</p>
+
+            <p><i>Comet for reddit</i> may link to external sites that are not operated by the developer. Please be aware that the developer has no control over the content and practices of these sites, and cannot accept responsibility or liability for their respective privacy policies.</p>
+            <p>As <i>Comet for reddit</i> is a client for Reddit.com, Reddit’s privacy policy does inherently apply, this can be found on their <a href="https://www.redditinc.com/policies/privacy-policy">website</a>.</p>
+            <p>Questions regarding this policy can be directly sent to the developer of <i>Comet for reddit</i> at the following email: <a href="mailto:AaronKovacsDev@gmail.com">AaronKovacsDev@gmail.com</a>.</p>
         </div>
-        <div>
-            <picture>
-                <source media="(min-width: 600px)" srcset="screenshots@3x.png">
-                <source media="(min-width: 450px)" srcset="screenshots@2x.png">
-                <img class="screenshot" src="screenshots@1x.png">
-            </picture>
-        </div>
-        <h3><font class="tinted">Dive deeper</font> into what you're watching.<h3>
-
-
-
-
-
-        <div id="div1" class="highlight" style="margin-top: 40px;">
-            <div class="highlight-content">
-                <div class="highlight-text">
-                    <img src="./posts_thumbnail.png" width="100" height="100" />
-                    <h2>Find Anything</h2>
-                    <p class="higlight-paragraph">We figure it what you're watching with the tap of just one button. So you can spend more time watching and less time searching.</p>
-                </div>
-                <div class="highlight-image">
-                    <img style="width: 100%; vertical-align: middle;" align="middle" src="posts.png">
-                </div>
+        <div class="linkContainer">
+            <div id='scDiv'>
+                <a class="iconLink" style="font-size: 0.5em; font-weight: 500;" href="https://twitter.com/CometForReddit">
+                    @CometForReddit · 
+                </a>
             </div>
-        </div>
-
-        <div id="div2" class="highlight">
-            <div class="highlight-content-reverse">
-                <div class="highlight-image">
-                    <img style="width: 100%; vertical-align: middle;" align="middle" src="mediaviewer.png">
-                </div>
-                <div class="highlight-text-right">
-                    <img src="./home_thumbnail.png" width="100" height="100" />
-                    <h2>Subtitles</h2>
-                    <p class="higlight-paragraph">Never miss a line again, every line said by every actor is now accessible from your phone. Say goodbye to subtitles covering your TV.</p>
-                </div>
-                
-            </div>
-        </div>
-
-        <div id="div1" class="highlight">
-            <div class="highlight-content">
-                
-                <div class="highlight-text">
-                    <img src="./comments_thumbnail.png" width="100" height="100" />
-                    <h2>Details</h2>
-                    <p class="higlight-paragraph">All the information about what you're watching is now all on one screen. See IMDb ratings, reviews, synopsis, actors, and so much more. </p>
-                </div>
-                <div class="highlight-image">
-                    <img style="width: 100%; vertical-align: middle;" align="middle" src="comments.png">
-                </div>
-                
-            </div>
-        </div>
-
-         <div id="div2" class="highlight">
-            <div class="highlight-content-reverse">
-                <div class="highlight-image">
-                    <img style="width: 100%; vertical-align: middle;" align="middle" src="search.png">
-                </div>
-                <div class="highlight-text-right">
-                    <img src="./search_thumbnail.png" width="100" height="100" />
-                    <h2>Wait, What?</h2>
-                    <p class="higlight-paragraph">Ever been confused while watching a movie? We've got you covered. Tap Summary to get a short paragraph summarizing the last five minutes. No friend bothering required.</p>
-                </div>
-                
-            </div>
-        </div>
-
-         <div id="div1" class="highlight">
-            <div class="highlight-content">
-                
-                <div class="highlight-text">
-                    <img src="./messages_thumbnail.png" width="100" height="100" />
-                    <h2>Actors</h2>
-                    <p class="higlight-paragraph">Wondering who that actor is? Where have you seen them before? Find out with the tap of one button. We'll show you every actor currently on screen all from your phone.</p>
-                </div>
-                <div class="highlight-image">
-                    <img style="width: 100%; vertical-align: middle;" align="middle" src="messages.png">
-                </div>
-            </div>
-        </div>
+            <div id='scDiv'>
+                <a class="iconLink" style="margin-left: 6px; font-size: 0.5em; font-weight: 500;" href="https://www.reddit.com/r/Comet">
+                   r/Comet · 
+               </a>
+           </div>
+           <div id='scDiv'>
+            <a class="iconLink" style="margin-left: 6px; font-size: 0.5em; font-weight: 500;" href="https://drive.google.com/uc?export=download&id=1gtbRKKa-KrqpwPZ0RWzWwRMS7OjIsig5">
+               Press Kit
+           </a>
+       </div>
+   </div>
 
 
-
-
-
-        <div class="extra-highlight">
-            <h2 style="padding-top: 32px; margin-bottom: 50px;" class="more-title">Stop reading. Start Watching.</h2>
-
-            <h4 style="padding-top: 48px; margin-bottom: 0.3em;" class="more-title">Technical Specifications</h4>
-            <p style="margin: 0;  font-size: 0.6em; font-weight: 400; max-width: 400px;">SubtitleVision is an iOS app written in Swift primarily using SwiftUI for layout and UI. Our backend is writtent in Python and uses open source forced alignment models combined with PyTorch. Summary is powered by the ChatGPT API. For further information view our architecture documentation below.</p>
-
-            <h4 style="padding-top: 48px; margin-bottom: 0.3em;" class="more-title">Relevant Links</h4>
-            <p><a href="www.google.com" style="color: #F89717;">Executive Summary</a></p>
-            <p><a href="www.google.com" style="color: #F89717;">Software Architecture</a></p>
-            <p><a href="www.google.com" style="color: #F89717;">Poster</a></p>
-
-            <h4 style="padding-top: 32px; margin-bottom: 2.0em;" class="more-title">Meet the team</h4>
-
-
-            <div style="display: flex; flex-direction: column; gap: 16px;">
-                <img src="./julia.jpg" width="120" height="120" style="border-radius: 25px;" />
-                <p style="margin: 0; font-size: 0.8em; font-weight: 800;" >Julia Showl</p>
-                <p style="margin: 0;  font-size: 0.6em; font-weight: 400; max-width: 400px;">Julia is currently a senior at the George Washington University majoring in computer science. Her current interests are data analytics and data science. </p>
-            </div>
-
-            <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 1em;">
-                <img src="./ryanrosica.jpeg" width="120" height="120" style="border-radius: 25px;" />
-                <p style="margin: 0; font-size: 0.8em; font-weight: 800;" >Ryan Rosica</p>
-                <p style="margin: 0;  font-size: 0.6em; font-weight: 400; max-width: 400px;">Senior Graduating in Computer Science at GWU. Plans to move to Seattle and work on Amazon's AWS.</p>
-            </div>
-
-            <div style="display: flex; flex-direction: column; gap: 16px; margin-top: 1em;">
-                <img src="./aaronkovacs.jpeg" width="120" height="120" style="border-radius: 25px;" />
-                <p style="margin: 0; font-size: 0.8em; font-weight: 800;" >Aaron Kovacs</p>
-                <p style="margin: 0;  font-size: 0.6em; font-weight: 400; max-width: 400px;">Senior Graduating in Computer Science at GWU. Plans to move to New York to work at a startup.</p>
-            </div>
-
-        </div>
-
-
-    </center>
+</div>
+</center>
 
 </body>
 </html>
